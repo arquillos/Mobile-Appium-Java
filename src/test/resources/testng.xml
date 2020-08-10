@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression checks suite" verbose="1">
+    <test name="Screen checks">
+        <classes>
+    	    <class name="tests.content.MainScreenChecks"/>
+        </classes>
+    </test>
+    <test name="Navigation checks">
+        <classes>
+        	<class name="tests.navigational.PhotoDemoViewNavigationCheck"/>
+        </classes>
+    </test>
+    <test name="Functional checks">
+        <classes>
+        	<class name="tests.functional.EchoBoxCheck"/>
+        </classes>
+    </test>
+    <test name="Visual checks">
+        <classes>
+            <class name="tests.navigational.PhotoDemoViewNavigationCheck"/>
+        </classes>
+    </test>
+</suite>
